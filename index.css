@@ -1,0 +1,108 @@
+.container-fluid{
+    background-color: #59C4BC;
+    width: 100vw;
+    height: 100vh;
+    user-select: none;
+}
+.main{
+   
+    height: 82vh;
+display: flex;
+justify-content: center;
+
+}
+.row{
+    padding-top: 30px;
+}
+.main #text-container{
+    width: 70%;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+padding:0px 40px;
+}
+
+
+
+#para{
+  font-family: "Eczar", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: .5px;
+  text-align: justify;
+  margin: 30px 0px 20px 0px ;
+  font-size: 1.5rem;
+}
+    #heading{
+        text-align: center;
+        font-size: 2em;
+        letter-spacing: .5px;
+        font-weight: 600;
+        margin-top: 30px;
+        font-family: "Sofia", sans-serif;
+        text-decoration-line: underline;
+        text-decoration-thickness: auto;
+    }
+
+    #input-fild{
+        width: 100%;
+        height: 30px;
+        font-size: 1.5rem;
+        font-family: "Eczar", serif; 
+        font-weight: 400;
+        padding: 20px 10px;
+  
+     }
+     #from-to{
+        padding-top: 20px;
+        display: flex;
+gap: 15.5vw;
+     }
+     #select-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+     }
+     #select-container i{
+text-align: center;
+padding-top: 20px;
+     }
+     .dropdown-container{
+          border: 1px solid black;
+          border-radius: .2em;
+          padding: 0px 10px;
+          margin-top: 20px;
+     }
+     .dropdown-container select{
+        background: transparent;
+        border: hidden;
+     }
+     .dropdown-container img{
+       height: 35px;
+     }
+     #message{
+        margin-top: 40px;
+        text-align: left;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color:#0c2f38 ;
+        font-size: large;
+        font-weight: 500;
+     }
+     #btn{
+        width: 100%;
+        padding: 5px 10px;
+        cursor: pointer;
+    margin-top: 10px;
+        font-size: 1.2rem;
+        font-family: "Eczar", serif; 
+        font-weight: 400;
+        border: hidden;
+        background-color: #9E4EB0;
+        color: white;
+        border-radius: .2em;
+        
+     }
+
+     
